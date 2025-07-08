@@ -1,0 +1,97 @@
+.navbar {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 12px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar:hover {
+  background: linear-gradient(90deg, #1c2833, #2a4a5b, #3b6a7a);
+  box-shadow: 0 6px 20px rgba(37, 117, 252, 0.6);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-tabs {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navbar-tab {
+  position: relative;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+  border-radius: 8px;
+}
+
+.navbar-tab:hover {
+  color: #2575fc;
+  background-color: #e6f0ff;
+  box-shadow: 0 2px 8px rgba(37, 117, 252, 0.2);
+}
+
+/* Removed duplicate .navbar-tab:hover rule */
+
+.navbar-tab.active {
+  color: #2575fc;
+  font-weight: 700;
+  background-color: #d0e4ff;
+  box-shadow: 0 4px 12px rgba(37, 117, 252, 0.3);
+}
+
+.navbar-tab .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background: #2575fc;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.navbar-tab.active .underline {
+  width: 100%;
+}
+
+.navbar-credits {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  user-select: none;
+  box-shadow: 0 2px 8px rgba(37, 117, 252, 0.3);
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  min-width: 100px;
+  justify-content: center;
+}
+
+.navbar-credits:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

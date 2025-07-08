@@ -1,0 +1,107 @@
+.pricing-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #181c24;
+  min-height: 100vh;
+}
+
+.pricing-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.pricing-subtitle {
+  color: #b0b8c1;
+  margin-bottom: 2rem;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.pricing-card {
+  background: #23283a;
+  border: 1px solid #2d334d;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  padding: 2rem 1.5rem;
+  width: 260px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+.pricing-card.popular {
+  border: 2px solid #7f5af0;
+  box-shadow: 0 4px 24px rgba(127,90,240,0.15);
+}
+
+.popular-badge {
+  position: absolute;
+  top: -1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #7f5af0;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(127,90,240,0.15);
+}
+
+.plan-label {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.plan-credits {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #7f5af0;
+  margin-bottom: 0.5rem;
+}
+
+.plan-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.plan-description {
+  color: #b0b8c1;
+  margin-bottom: 1.5rem;
+}
+
+.purchase-btn {
+  background: #7f5af0;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: not-allowed;
+  opacity: 0.7;
+  margin-top: auto;
+  transition: background 0.2s;
+}
+
+.pricing-note {
+  color: #b0b8c1;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+} 

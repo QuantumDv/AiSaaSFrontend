@@ -1,0 +1,103 @@
+.admin-payments-page {
+  min-height: 100vh;
+  background: #181c24;
+}
+
+.admin-container {
+  max-width: 1100px;
+  margin: 2.5rem auto;
+  background: #23283a;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+  padding: 2.5rem 2rem 2rem 2rem;
+  color: #fff;
+}
+
+.admin-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.admin-loading {
+  color: #b0b8c1;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #23283a;
+  color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.admin-table th, .admin-table td {
+  padding: 1rem 0.7rem;
+  text-align: center;
+}
+
+.admin-table th {
+  background: #292f45;
+  color: #b0b8c1;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.admin-table tr {
+  border-bottom: 1px solid #2d334d;
+}
+
+.admin-table tr:last-child {
+  border-bottom: none;
+}
+
+.admin-img-thumb {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 2px solid #7f5af0;
+  box-shadow: 0 2px 8px rgba(127,90,240,0.08);
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background: #292f45;
+  color: #b0b8c1;
+}
+
+.status-badge.released {
+  background: #2ec27e;
+  color: #fff;
+}
+
+.released-row {
+  background: #1e222d;
+}
+
+.release-btn {
+  background: #7f5af0;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.release-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+} 
