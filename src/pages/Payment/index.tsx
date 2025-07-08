@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import Navbar from "../../components/navbar";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./styles.css";
-import axios from "axios";
 
 const Payment: React.FC = () => {
   const location = useLocation();
